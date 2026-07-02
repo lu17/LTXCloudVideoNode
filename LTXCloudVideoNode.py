@@ -39,7 +39,7 @@ class LTXCloudVideoNode:
     RETURN_TYPES = ("STRING", "STRING",)
     RETURN_NAMES = ("video_url", "task_id")
     FUNCTION = "generate_video"
-    CATEGORY = "LTXVideo/cloud"
+    CATEGORY = "我的节点/LTXCloud"
 
     def generate_video(self, prompt, negative_prompt, size, duration, seed, api_url, api_token):
         """
